@@ -1,2 +1,2 @@
 # learntime
-a time learning app for kids
+## a time learning app for kids
