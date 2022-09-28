@@ -7,6 +7,7 @@
 .clock {
     height: 100%;
     width: 100%;
+    overflow: hidden;
     aspect-ratio: 1 / 1;
     max-width: 100px;
     display: grid;
@@ -23,6 +24,7 @@
 
 .sector-2 {
     border-bottom: 1px slateblue solid;
+    background-color: rebeccapurple;
 }
 
 .sector-3 {
@@ -30,3 +32,12 @@
 }
 
 .sector-4 {}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: purple;
+}
+
+body {
+    background-color: powderblue;
+}
