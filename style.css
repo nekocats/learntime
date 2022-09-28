@@ -13,6 +13,11 @@ p {
     color: purple;
 }
 
+.clock-container {
+    display: flex;
+    justify-content: center;
+}
+
 .clock {
     height: 100%;
     width: 100%;
@@ -26,21 +31,20 @@ p {
     border: 2px slateblue solid;
 }
 
-.sector-1 {
-    border-bottom: 1px slateblue solid;
-    border-right: 1px slateblue solid;
+#sector-1 {
+    border-bottom: 1px rebeccapurple solid;
+    border-right: 1px rebeccapurple solid;
 }
 
-.sector-2 {
-    border-bottom: 1px slateblue solid;
-    background-color: rebeccapurple;
+#sector-2 {
+    border-bottom: 1px rebeccapurple solid;
 }
 
-.sector-3 {
-    border-right: 1px slateblue solid;
+#sector-3 {
+    border-right: 1px rebeccapurple solid;
 }
 
-.sector-4 {}
+#sector-4 {}
 
 .buttons {
     display: grid;
