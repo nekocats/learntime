@@ -1,16 +1,32 @@
-#quarter-clock {
-    display: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
- 
-#half-clock {
-    display: none;
+
+.clock {
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    max-width: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    border-radius: 100%;
+    border: 2px slateblue solid;
 }
- 
-#three-quarter-clock {
-    display: none;
+
+.sector-1 {
+    border-bottom: 1px slateblue solid;
+    border-right: 1px slateblue solid;
 }
- 
-#full-clock {
-    display: none;
+
+.sector-2 {
+    border-bottom: 1px slateblue solid;
 }
- 
+
+.sector-3 {
+    border-right: 1px slateblue solid;
+}
+
+.sector-4 {}
