@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: powderblue;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: purple;
+}
+
 .clock {
     height: 100%;
     width: 100%;
@@ -33,11 +42,9 @@
 
 .sector-4 {}
 
-p {
-    font-family: 'Montserrat', sans-serif;
-    color: purple;
-}
-
-body {
-    background-color: powderblue;
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 25px;
+    column-gap: 25px;
 }
