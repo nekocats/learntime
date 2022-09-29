@@ -24,3 +24,9 @@ for (var i = 0; i <= 11; i++) {
     element.appendChild(tag);
 };
 
+function getMultipleRandom(arr, num) {
+    const shuffled = [...arr].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, num);
+}
+
+console.log(getMultipleRandom(hours, 3))
