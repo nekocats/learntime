@@ -8,6 +8,9 @@ const sector2 = document.getElementById('sector-2');
 const sector3 = document.getElementById('sector-3');
 const sector4 = document.getElementById('sector-4');
 
+const minutePointer = document.getElementById('minute-pointer');
+const minutePointerText = document.getElementById('minute-pointer-txt');
+
 sectorDraw();
 
 function sectorDraw() {
@@ -17,24 +20,32 @@ function sectorDraw() {
             sector4.style.backgroundColor = "transparent";
             sector3.style.backgroundColor = "transparent";
             sector1.style.backgroundColor = "transparent";
+            minutePointer.style.transform = "rotate(180deg)";
+            minutePointerText.style.rotate = "180deg";
             break;
         case 'half':
             sector2.style.backgroundColor = "rgb(208, 255, 247)";
             sector4.style.backgroundColor = "rgb(208, 255, 247)";
             sector3.style.backgroundColor = "transparent";
             sector1.style.backgroundColor = "transparent";
+            minutePointer.style.transform = "rotate(270deg)";
+            minutePointerText.style.rotate = "0deg";
             break;
         case 'three-quarters':
             sector2.style.backgroundColor = "rgb(208, 255, 247)";
             sector3.style.backgroundColor = "rgb(208, 255, 247)";
             sector4.style.backgroundColor = "rgb(208, 255, 247)";
             sector1.style.backgroundColor = "transparent";
+            minutePointer.style.transform = "rotate(0deg)";
+            minutePointerText.style.rotate = "0deg";
             break;
         case 'full':
             sector2.style.backgroundColor = "rgb(208, 255, 247)";
             sector4.style.backgroundColor = "rgb(208, 255, 247)";
             sector3.style.backgroundColor = "rgb(208, 255, 247)";
             sector1.style.backgroundColor = "rgb(208, 255, 247)";
+            minutePointer.style.transform = "rotate(90deg)";
+            minutePointerText.style.rotate = "180deg";
             break;
     }
 }

@@ -236,7 +236,7 @@ button:active {
     justify-content: center;
 }
 
-.hour-pointer {
+#hour-pointer {
     width: 30%;
     height: 5%;
     color: darkolivegreen;
@@ -244,10 +244,9 @@ button:active {
     
 }
 
-.minute-pointer {
+#minute-pointer {
     width: 38%;
     height: 3%;
-    transform: rotate(-180deg);
     z-index: 2;
 }
 
@@ -260,7 +259,7 @@ button:active {
     rotate: 180deg;
 }
 
-.minute-pointer-txt {
+#minute-pointer-txt {
     font-size: 0.5em;
     color: white;
     rotate: 180deg;
