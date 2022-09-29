@@ -61,14 +61,14 @@ p {
     row-gap: 25px;
     column-gap: 25px;
 }
-.hour-buttons {
+#hour-buttons {
     display: grid;
     grid-template-columns: repeat(6, auto);
     row-gap: 25px;
     column-gap: 25px;
     justify-content: center;
 }
-.hour-buttons button {
+#hour-buttons button {
     background-color: #04AA6D;
     color: white;
     padding: 10px;
