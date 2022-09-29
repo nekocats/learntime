@@ -97,9 +97,11 @@ setInterval(function() {
         clockContainer = document.getElementById("clock");
         congratsContainer.style.display = "block";
         clockContainer.style.display = "none";
-        setTimeout(document.location='/index2.html', 5000);
+        setTimeout(function() {
+            document.location='/index2.html'
+        }, 5000);
     }
-}, 10);
+}, 100);
 
 // function pol2car(angle, radius) {
 //     return {
