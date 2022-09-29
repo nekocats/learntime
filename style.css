@@ -4,14 +4,30 @@
     box-sizing: inherit;
 }
 
+p {
+    color: greenyellow;
+}
+
 body {
-    background-color: rgb(63, 0, 0);
+    background-color: rgb(0, 0, 0);
     font-family: 'Montserrat', sans-serif;
 }
 
-p {
-    color: purple;
-    text-align: center;
+button {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: larger;
+}
+
+button:hover {
+    color: rgb(255, 0, 255);
+    background-color: #303030;
+}
+
+button:active {
+    color: greenyellow;
 }
 
 #clock-container {
@@ -28,12 +44,13 @@ p {
     width: 100%;
     overflow: hidden;
     aspect-ratio: 1 / 1;
+    color: whitesmoke;
     max-width: 300px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     border-radius: 100%;
-    border: 2px slateblue solid;
+    border: 2px rebeccapurple solid;
     position: relative;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -52,8 +69,6 @@ p {
 #sector-3 {
     border-right: 1px rebeccapurple solid;
 }
-
-#sector-4 {}
 
 #buttons {
     display: grid;
@@ -120,9 +135,6 @@ p {
 .hour-8 {
     transform: rotate(150deg);
 }
-
-.hour-3,
-.hour-9 {}
 
 .hour-4,
 .hour-10 {
@@ -219,14 +231,16 @@ p {
 
 .minute-pointer {
     width: 38%;
-    height: 2%;
+    height: 3%;
     transform: rotate(-180deg);
     z-index: 2;
 }
 
 .hour-pointer-txt {
     font-size: 0.5em;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    font-weight: bolder;
     float: right;
     rotate: 180deg;
     margin-right: 15px;

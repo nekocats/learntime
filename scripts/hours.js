@@ -1,4 +1,4 @@
-let hours = ['1','2','3','4','5','6','7','8','9','10','11','12'];
+let hours = [1,2,3,4,5,6,7,8,9,10,11,12];
 let copiedHours = hours.slice();
 
 function shuffle(arr) {
@@ -30,9 +30,10 @@ emptyHours = getMultipleRandom(hours, 3);
 
 for ( var i = 1; i <= 12; i++ ) {
     clockHours = document.getElementById("number-" + i);
-    if ( emptyHours =  ) {
-
+    if ( emptyHours.includes(i) ) {
+        clockHours.innerText = "";
+        console.log(i)
     }
 }
 
-console.log(getMultipleRandom(hours, 3));
+console.log(emptyHours);
