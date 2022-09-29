@@ -13,28 +13,28 @@ sectorDraw();
 function sectorDraw() {
     switch (sector) {
         case 'quarter':
-            sector2.style.backgroundColor = "rebeccapurple";
+            sector2.style.backgroundColor = "rgb(208, 255, 247)";
             sector4.style.backgroundColor = "transparent";
             sector3.style.backgroundColor = "transparent";
             sector1.style.backgroundColor = "transparent";
             break;
         case 'half':
-            sector2.style.backgroundColor = "rebeccapurple";
-            sector4.style.backgroundColor = "rebeccapurple";
+            sector2.style.backgroundColor = "rgb(208, 255, 247)";
+            sector4.style.backgroundColor = "rgb(208, 255, 247)";
             sector3.style.backgroundColor = "transparent";
             sector1.style.backgroundColor = "transparent";
             break;
         case 'three-quarters':
-            sector2.style.backgroundColor = "rebeccapurple";
-            sector4.style.backgroundColor = "rebeccapurple";
-            sector3.style.backgroundColor = "rebeccapurple";
+            sector2.style.backgroundColor = "rgb(208, 255, 247)";
+            sector3.style.backgroundColor = "rgb(208, 255, 247)";
+            sector4.style.backgroundColor = "rgb(208, 255, 247)";
             sector1.style.backgroundColor = "transparent";
             break;
         case 'full':
-            sector2.style.backgroundColor = "rebeccapurple";
-            sector4.style.backgroundColor = "rebeccapurple";
-            sector3.style.backgroundColor = "rebeccapurple";
-            sector1.style.backgroundColor = "rebeccapurple";
+            sector2.style.backgroundColor = "rgb(208, 255, 247)";
+            sector4.style.backgroundColor = "rgb(208, 255, 247)";
+            sector3.style.backgroundColor = "rgb(208, 255, 247)";
+            sector1.style.backgroundColor = "rgb(208, 255, 247)";
             break;
     }
 }
@@ -45,7 +45,7 @@ let threeQuarterButton = document.getElementById("three-quarters-button");
 let fullButton = document.getElementById("full-button");
 let answerDiv = document.getElementById("answer");
 
-function correctAnswer () {
+function correctAnswer() {
     answerDiv.innerHTML = "Tubli töö!"
     level++;
     sector = sectors[Math.floor(Math.random() * sectors.length)];
@@ -55,7 +55,7 @@ function correctAnswer () {
     }, 2000);
 }
 
-function wrongAnswer () {
+function wrongAnswer() {
     answerDiv.innerHTML = "Vale vastus."
     setTimeout(function() {
         answerDiv.innerHTML = "";
@@ -103,7 +103,7 @@ setInterval(function() {
         clockContainer.style.display = "none";
         buttonsContainer.style.display = "none";
         setTimeout(function() {
-            document.location='/index2.html';
+            document.location = '/index2.html';
         }, 5000);
     }
 }, 10);
