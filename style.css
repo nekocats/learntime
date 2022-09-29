@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: powderblue;
+    background-color: rgb(63, 0, 0);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -37,7 +37,7 @@ p {
     position: relative;
     margin-top: 40px;
     margin-bottom: 40px;
-    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
 #sector-1 {
@@ -61,6 +61,7 @@ p {
     row-gap: 25px;
     column-gap: 25px;
 }
+
 .hour-buttons {
     display: grid;
     grid-template-columns: repeat(6, auto);
@@ -68,6 +69,7 @@ p {
     column-gap: 25px;
     justify-content: center;
 }
+
 .hour-buttons button {
     background-color: #04AA6D;
     color: white;
@@ -81,112 +83,117 @@ p {
 }
 
 .clock .center {
-    width:5%;
-    height:5%;
-    border-radius:100%;
-    background-color:blue;
-    position:absolute;
-    left:47.5%;
-    top:47.5%;
+    width: 5%;
+    height: 5%;
+    border-radius: 100%;
+    background-color: blue;
+    position: absolute;
+    left: 47.5%;
+    top: 47.5%;
     z-index: 3;
 }
 
-.round-hour{
-    height:2%; 
-    width:96%; 
-    position:absolute; 
-    top:49%;
-    left:2%;
+.round-hour {
+    height: 2%;
+    width: 96%;
+    position: absolute;
+    top: 49%;
+    left: 2%;
     text-align: center;
-} 
-.round-hour span{
-    height: 30px; 
-    width: 30px; 
-    border: 2px solid blue;  
+}
+
+.round-hour span {
+    height: 30px;
+    width: 30px;
+    border: 2px solid blue;
     border-radius: 100%;
     margin-top: -12.5px;
     font-size: 1.5em;
-} 
+}
 
-.hour-1, .hour-7 {
+.hour-1,
+.hour-7 {
     transform: rotate(120deg);
 }
-  
-.hour-2, .hour-8 {
+
+.hour-2,
+.hour-8 {
     transform: rotate(150deg);
 }
-  
-.hour-3, .hour-9 {
-}
-  
-.hour-4, .hour-10 {
+
+.hour-3,
+.hour-9 {}
+
+.hour-4,
+.hour-10 {
     transform: rotate(30deg);
 }
-  
-.hour-5, .hour-11 {   
+
+.hour-5,
+.hour-11 {
     transform: rotate(60deg);
 }
-  
-.hour-6, .hour-12 {
+
+.hour-6,
+.hour-12 {
     transform: rotate(90deg);
 }
 
-
 .number-1 {
-    float:left;
+    float: left;
     transform: rotate(-120deg);
 }
 
 .number-2 {
-    float:left;
+    float: left;
     transform: rotate(-150deg);
 }
 
 .number-3 {
-    float:right;
+    float: right;
 }
 
 .number-4 {
-    float:right;
+    float: right;
     transform: rotate(-30deg);
 }
 
 .number-5 {
-    float:right;
+    float: right;
     transform: rotate(-60deg);
 }
 
 .number-6 {
-    float:right;
+    float: right;
     transform: rotate(-90deg);
 }
-  
+
 .number-7 {
-    float:right;
+    float: right;
     transform: rotate(-120deg);
-}  
+}
 
 .number-8 {
-    float:right;
+    float: right;
     transform: rotate(-150deg);
 }
-  
+
 .number-9 {
-    float:left;
+    float: left;
 }
-  
+
 .number-10 {
-    float:left;
+    float: left;
     transform: rotate(-30deg);
 }
-  
+
 .number-11 {
-    float:left;
+    float: left;
     transform: rotate(-60deg);
 }
-  
+
 .number-12 {
-    float:left;
+    float: left;
     transform: rotate(-90deg);
 }
 
@@ -202,16 +209,16 @@ p {
     transform: rotate(90deg);
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
-  
+
 .hour-pointer {
     width: 30%;
     color: darkolivegreen;
     z-index: 1;
 }
-  
+
 .minute-pointer {
     width: 38%;
-    height: 2%;  
+    height: 2%;
     transform: rotate(-180deg);
     z-index: 2;
 }
@@ -225,8 +232,8 @@ p {
 }
 
 .minute-pointer-txt {
-    font-size: 0.5em; 
-    color: white;   
+    font-size: 0.5em;
+    color: white;
     rotate: 180deg;
     float: right;
     margin-right: 15px;
