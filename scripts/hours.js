@@ -1,6 +1,3 @@
-var dt = new Date();
-document.getElementById('date-time').innerHTML = dt;
-
 let hours = ['1','2','3','4','5','6','7','8','9','10','11','12'];
 let copiedHours = hours.slice();
 
@@ -29,4 +26,13 @@ function getMultipleRandom(arr, num) {
     return shuffled.slice(0, num);
 }
 
-console.log(getMultipleRandom(hours, 3))
+emptyHours = getMultipleRandom(hours, 3);
+
+for ( var i = 1; i <= 12; i++ ) {
+    clockHours = document.getElementById("number-" + i);
+    if ( emptyHours =  ) {
+
+    }
+}
+
+console.log(getMultipleRandom(hours, 3));
