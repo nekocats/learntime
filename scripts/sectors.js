@@ -46,59 +46,57 @@ let fullButton = document.getElementById("full-button");
 
 quarterButton.addEventListener("click", function(event) {
     if (sector == 'quarter') {
-        alert("Good job!");
+        alert("Tubli!");
         level++;
         sector = sectors[Math.floor(Math.random() * sectors.length)];
         sectorDraw();
     } else {
-        alert("Wrong answer!")
+        alert("Vale vastus.")
     }
 });
 
 halfButton.addEventListener("click", function(event) {
     if (sector == 'half') {
-        alert("Good job!");
+        alert("Tubli!");
         level++;
         sector = sectors[Math.floor(Math.random() * sectors.length)];
         sectorDraw();
     } else {
-        alert("Wrong answer!")
+        alert("Vale vastus.")
     }
 });
 
 threeQuarterButton.addEventListener("click", function(event) {
     if (sector == 'three-quarters') {
-        alert("Good job!");
+        alert("Tubli!");
         level++;
         sector = sectors[Math.floor(Math.random() * sectors.length)];
         sectorDraw();
     } else {
-        alert("Wrong answer!")
+        alert("Vale vastus.")
     }
 });
 
 fullButton.addEventListener("click", function(event) {
     if (sector == 'full') {
-        alert("Good job!");
+        alert("Tubli!");
         level++;
         sector = sectors[Math.floor(Math.random() * sectors.length)];
         sectorDraw();
     } else {
-        alert("Wrong answer!")
+        alert("Vale vastus.")
     }
 });
 
 setInterval(function() {
-    if (level >= 5) {
+    if (level >= 15) {
         congratsContainer = document.getElementById("congrats-container");
         clockContainer = document.getElementById("clock");
         buttonsContainer = document.getElementById("buttons")
         congratsContainer.style.display = "block";
         clockContainer.style.display = "none";
         buttonsContainer.style.display = "none";
-        setTimeout(function() {
-            document.location='/index2.html'
-        }, 5000);
+
     }
 }, 10);
 
