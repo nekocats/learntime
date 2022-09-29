@@ -77,6 +77,11 @@ button:active {
     column-gap: 25px;
 }
 
+#buttons button {
+    height: 50px;
+    margin: 0 30px
+}
+
 #hour-buttons {
     display: grid;
     grid-template-columns: repeat(6, auto);

@@ -89,7 +89,7 @@ fullButton.addEventListener("click", function(event) {
 });
 
 setInterval(function() {
-    if (level >= 15) {
+    if (level >= 10) {
         congratsContainer = document.getElementById("congrats-container");
         clockContainer = document.getElementById("clock");
         buttonsContainer = document.getElementById("buttons")
