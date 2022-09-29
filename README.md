@@ -20,7 +20,7 @@ Nowadays many kids do not know how to tell time correctly when they start first 
 Slack
 
 # Working tools
-Whiteboard, laptops, brains and some knowledge :), Google
+Whiteboard, laptops, brains and some basic knowledge :), Google
 
 # Assignments
 ## Day 1
