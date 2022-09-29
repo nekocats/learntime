@@ -11,9 +11,10 @@ p {
 body {
     background-image: url(/assets/upscaled.png);
     font-family: 'Montserrat', sans-serif;
-    background-size: 100%;
-    background-position: center;
+    background-size: cover;
+    background-position: 100%;
     background-repeat: no-repeat;
+    background-color: black;
 }
 
 button {
