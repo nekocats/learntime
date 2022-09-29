@@ -95,8 +95,10 @@ setInterval(function() {
     if ( level >= 5 ) {
         congratsContainer = document.getElementById("congrats-container");
         clockContainer = document.getElementById("clock");
+        buttonsContainer = document.getElementById("buttons");
         congratsContainer.style.display = "block";
         clockContainer.style.display = "none";
+        buttonsContainer.style.display = "none";
         setTimeout(function() {
             document.location='/index2.html'
         }, 5000);
