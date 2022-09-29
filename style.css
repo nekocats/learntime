@@ -10,11 +10,20 @@ body {
 }
 
 button {
-    background-color: black;
+    background-color: rgb(29, 29, 29);
     color: white;
     border: none;
     font-family: 'Montserrat';
     font-size: larger;
+}
+
+button:hover {
+    color: rgb(255, 0, 255);
+    background-color: #303030;
+}
+
+button:active {
+    color: greenyellow;
 }
 
 p {
