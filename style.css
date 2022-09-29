@@ -62,7 +62,7 @@ button:active {
     margin-bottom: 40px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
-
+/* 
 #sector-1 {
     border-bottom: 1px rgb(208, 255, 247) solid;
     border-right: 1px rgb(208, 255, 247) solid;
@@ -74,7 +74,7 @@ button:active {
 
 #sector-3 {
     border-right: 1px rgb(208, 255, 247) solid;
-}
+} */
 
 #buttons {
     display: grid;
@@ -227,17 +227,21 @@ button:active {
     height: 3%;
     top: 50%;
     background: green;
-    border-radius: 5px;
+    border-radius: 100%;
     transform-origin: 100%;
     transform: rotate(90deg);
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hour-pointer {
     width: 30%;
-    height: 4%;
+    height: 5%;
     color: darkolivegreen;
     z-index: 1;
+    
 }
 
 .minute-pointer {
@@ -254,7 +258,6 @@ button:active {
     font-weight: bolder;
     float: right;
     rotate: 180deg;
-    margin-right: 15px;
 }
 
 .minute-pointer-txt {
@@ -262,5 +265,4 @@ button:active {
     color: white;
     rotate: 180deg;
     float: right;
-    margin-right: 15px;
 }
