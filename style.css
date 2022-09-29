@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: powderblue;
+    background-color: rgb(63, 0, 0);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -219,7 +219,7 @@ p {
 
 .minute-pointer {
     width: 38%;
-    height: 3%;
+    height: 2%;
     transform: rotate(-180deg);
     z-index: 2;
 }

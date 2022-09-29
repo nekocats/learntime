@@ -1,5 +1,5 @@
-let sectors = ['quarter','half','three-quarters','full']
-var sector = sectors[Math.floor(Math.random()*sectors.length)];
+let sectors = ['quarter', 'half', 'three-quarters', 'full']
+var sector = sectors[Math.floor(Math.random() * sectors.length)];
 var level = 1;
 
 
@@ -14,7 +14,7 @@ const sector4 = document.getElementById('sector-4');
 sectorDraw();
 
 function sectorDraw() {
-    switch ( sector ) {
+    switch (sector) {
         case 'quarter':
             sector2.style.backgroundColor = "rebeccapurple";
             sector4.style.backgroundColor = "transparent";
@@ -48,10 +48,10 @@ let threeQuarterButton = document.getElementById("three-quarters-button");
 let fullButton = document.getElementById("full-button");
 
 quarterButton.addEventListener("click", function(event) {
-    if ( sector == 'quarter' ) {
+    if (sector == 'quarter') {
         alert("Good job!");
         level++;
-        sector = sectors[Math.floor(Math.random()*sectors.length)];
+        sector = sectors[Math.floor(Math.random() * sectors.length)];
         sectorDraw();
     } else {
         alert("Wrong answer!")
@@ -59,10 +59,10 @@ quarterButton.addEventListener("click", function(event) {
 });
 
 halfButton.addEventListener("click", function(event) {
-    if ( sector == 'half' ) {
+    if (sector == 'half') {
         alert("Good job!");
         level++;
-        sector = sectors[Math.floor(Math.random()*sectors.length)];
+        sector = sectors[Math.floor(Math.random() * sectors.length)];
         sectorDraw();
     } else {
         alert("Wrong answer!")
@@ -70,10 +70,10 @@ halfButton.addEventListener("click", function(event) {
 });
 
 threeQuarterButton.addEventListener("click", function(event) {
-    if ( sector == 'three-quarters' ) {
+    if (sector == 'three-quarters') {
         alert("Good job!");
         level++;
-        sector = sectors[Math.floor(Math.random()*sectors.length)];
+        sector = sectors[Math.floor(Math.random() * sectors.length)];
         sectorDraw();
     } else {
         alert("Wrong answer!")
@@ -81,10 +81,10 @@ threeQuarterButton.addEventListener("click", function(event) {
 });
 
 fullButton.addEventListener("click", function(event) {
-    if ( sector == 'full' ) {
+    if (sector == 'full') {
         alert("Good job!");
         level++;
-        sector = sectors[Math.floor(Math.random()*sectors.length)];
+        sector = sectors[Math.floor(Math.random() * sectors.length)];
         sectorDraw();
     } else {
         alert("Wrong answer!")
@@ -92,7 +92,7 @@ fullButton.addEventListener("click", function(event) {
 });
 
 setInterval(function() {
-    if ( level >= 5 ) {
+    if (level >= 5) {
         congratsContainer = document.getElementById("congrats-container");
         clockContainer = document.getElementById("clock");
         buttonsContainer = document.getElementById("buttons");
@@ -115,4 +115,4 @@ setInterval(function() {
 
 // if (sector == 'quarter') {
 //     quarterClock.style.display = "block";
-// }// 
+// }//
