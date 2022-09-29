@@ -43,48 +43,54 @@ let quarterButton = document.getElementById("quarter-button");
 let halfButton = document.getElementById("half-button");
 let threeQuarterButton = document.getElementById("three-quarters-button");
 let fullButton = document.getElementById("full-button");
+let answerDiv = document.getElementById("answer");
+
+function correctAnswer () {
+    answerDiv.innerHTML = "Tubli töö!"
+    level++;
+    sector = sectors[Math.floor(Math.random() * sectors.length)];
+    sectorDraw();
+    setTimeout(function() {
+        answerDiv.innerHTML = "";
+    }, 2000);
+}
+
+function wrongAnswer () {
+    answerDiv.innerHTML = "Vale vastus."
+    setTimeout(function() {
+        answerDiv.innerHTML = "";
+    }, 2000);
+}
 
 quarterButton.addEventListener("click", function(event) {
     if (sector == 'quarter') {
-        alert("Tubli!");
-        level++;
-        sector = sectors[Math.floor(Math.random() * sectors.length)];
-        sectorDraw();
+        correctAnswer();
     } else {
-        alert("Vale vastus.")
+        wrongAnswer();
     }
 });
 
 halfButton.addEventListener("click", function(event) {
     if (sector == 'half') {
-        alert("Tubli!");
-        level++;
-        sector = sectors[Math.floor(Math.random() * sectors.length)];
-        sectorDraw();
+        correctAnswer();
     } else {
-        alert("Vale vastus.")
+        wrongAnswer();
     }
 });
 
 threeQuarterButton.addEventListener("click", function(event) {
     if (sector == 'three-quarters') {
-        alert("Tubli!");
-        level++;
-        sector = sectors[Math.floor(Math.random() * sectors.length)];
-        sectorDraw();
+        correctAnswer();
     } else {
-        alert("Vale vastus.")
+        wrongAnswer();
     }
 });
 
 fullButton.addEventListener("click", function(event) {
     if (sector == 'full') {
-        alert("Tubli!");
-        level++;
-        sector = sectors[Math.floor(Math.random() * sectors.length)];
-        sectorDraw();
+        correctAnswer();
     } else {
-        alert("Vale vastus.")
+        wrongAnswer();
     }
 });
 
@@ -96,18 +102,8 @@ setInterval(function() {
         congratsContainer.style.display = "block";
         clockContainer.style.display = "none";
         buttonsContainer.style.display = "none";
-
+        setTimeout(function() {
+            document.location='/index2.html';
+        }, 5000);
     }
 }, 10);
-
-// function pol2car(angle, radius) {
-//     return {
-//         x: Math.cos((angle - 90) * (Math.PI / 180)) * radius,
-//         y: Math.sin((angle - 90) * (Math.PI / 180)) * radius,
-//     };
-// }
-
-
-// if (sector == 'quarter') {
-//     quarterClock.style.display = "block";
-// }//

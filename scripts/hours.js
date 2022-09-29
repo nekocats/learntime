@@ -28,14 +28,12 @@ function getMultipleRandom(arr, num) {
 
 emptyHours = getMultipleRandom(hours, 3);
 
+selectedButtons = [];
+
 for ( var i = 1; i <= 12; i++ ) {
     clockHours = document.getElementById("number-" + i);
-    selectedButtons = [];
-    
+
     if ( emptyHours.includes(i) ) {
         clockHours.innerText = "";
-        console.log(i);
     }
 }
-
-console.log(emptyHours);
