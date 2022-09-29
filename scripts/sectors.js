@@ -3,9 +3,6 @@ var sector = sectors[Math.floor(Math.random() * sectors.length)];
 var level = 1;
 
 
-var dt = new Date();
-document.getElementById('date-time').innerHTML = dt;
-
 const sector1 = document.getElementById('sector-1');
 const sector2 = document.getElementById('sector-2');
 const sector3 = document.getElementById('sector-3');
@@ -95,9 +92,13 @@ setInterval(function() {
     if (level >= 5) {
         congratsContainer = document.getElementById("congrats-container");
         clockContainer = document.getElementById("clock");
+        buttonsContainer = document.getElementById("buttons")
         congratsContainer.style.display = "block";
         clockContainer.style.display = "none";
-        setTimeout(document.location = '/index2.html', 5000);
+        buttonsContainer.style.display = "none";
+        setTimeout(function() {
+            document.location='/index2.html'
+        }, 5000);
     }
 }, 10);
 
