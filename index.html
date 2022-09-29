@@ -13,22 +13,26 @@
 </head>
 
 <body>
-    <div class="clock-container">
-        <div class="clock">
+    <div id="clock-container">
+        <div id="clock">
             <div id="sector-1"></div>
             <div id="sector-2"></div>
             <div id="sector-3"></div>
             <div id="sector-4"></div>
         </div>
+        <div id="congrats-container">
+            <img src="./assets/smiley.png" alt="Congrats!">
+            <p>Good job, you passed this level!</p>
+        </div>
     </div>
     <div class="buttons">
-        <button>Quarter</button>
-        <button>Half</button>
-        <button>Three Quarters</button>
-        <button>Full</button>
+        <button id="quarter-button">Quarter</button>
+        <button id="half-button">Half</button>
+        <button id="three-quarters-button">Three Quarters</button>
+        <button id="full-button">Full</button>
     </div>
     <p>Current Date and Time is <span id='date-time'></span>.</p>
-    <script src="script.js"></script>
+    <script src="scripts/sectors.js"></script>
 </body>
 
 </html>
