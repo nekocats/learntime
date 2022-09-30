@@ -90,9 +90,9 @@ Kuidas rakendada selles projektis õpitut järgmistes arendusprojektides?
 (A hard skill/technical skill that I learned and developed)
 
 ## Ragnar
-How to use/apply the skills I learned from this project in the next ones?
-Planning and analyze task
-Soft skill:
+* How to use/apply the skills I learned from this project in the next ones?
+- Planning and analyze task
+* Soft skill:
 Communication with team.
 Hard skill:
 Improve github use, little bit of javascript...
@@ -101,7 +101,10 @@ Improve github use, little bit of javascript...
 text
 
 ## Marcus
-text
+In this project, I felt that teamwork and communication was stronger than it has been in previous projects.
+That would also be the soft skill that I learned and further developed.
+The technical skill that I learned was design and most importantly, not making everything pink.
+
 
 ## Rihard
 text
