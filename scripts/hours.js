@@ -15,6 +15,7 @@ shuffle(copiedHours);
 for (var i = 0; i <= 11; i++) {
     var tag = document.createElement("button");
     tag.setAttribute('id', "hour-button-" + copiedHours[i]);
+    tag.setAttribute('draggable', "true");
     var text = document.createTextNode(copiedHours[i]);
     tag.appendChild(text);
     var element = document.getElementById("hour-buttons");
@@ -28,12 +29,25 @@ function getMultipleRandom(arr, num) {
 
 emptyHours = getMultipleRandom(hours, 3);
 
-selectedButtons = [];
-
 for (var i = 1; i <= 12; i++) {
     clockHours = document.getElementById("number-" + i);
 
     if (emptyHours.includes(i)) {
         clockHours.innerText = "";
     }
+}
+
+function dragstart_handler(ev) {
+    ev.dataTransfer.setData("text/plain", ev.target.innerText);
+}
+
+function dragover_handler(ev) {
+    ev.preventDefault();
+    ev.dataTransfer.dropEffect = "move";
+}
+
+function drop_handler(ev) {
+    ev.preventDefault();
+    const data = ev.dataTransfer.getData("text/plain");
+    ev.target.appendChild(document.getElementById(data));
 }
