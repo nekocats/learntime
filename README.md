@@ -102,7 +102,9 @@ text
 text
 
 ## Jan
-text
+Communication with teammate.
+Learned a little html, css (I made circles for hours/minutes and added pointers) and try to understand little bit git js.
+It was my first project where I attended so I can basically take everything from here :slightly_smiling_face:
 
 ## Oleksandra
 text
