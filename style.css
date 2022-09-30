@@ -5,12 +5,16 @@
 }
 
 p {
-    color: greenyellow;
+    color: rgb(61, 61, 61);
 }
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-image: url(/assets/upscaled.png);
     font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-color: #007E53;
 }
 
 button {
@@ -19,10 +23,12 @@ button {
     border: none;
     font-family: 'Montserrat';
     font-size: larger;
+    cursor: pointer;
+    transition: background 0.5s;
 }
 
 button:hover {
-    color: rgb(255, 0, 255);
+    color: rgb(102, 255, 64);
     background-color: #303030;
 }
 
@@ -50,7 +56,7 @@ button:active {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     border-radius: 100%;
-    border: 2px rebeccapurple solid;
+    border: 2px rgb(0, 164, 185) solid;
     position: relative;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -58,16 +64,21 @@ button:active {
 }
 
 #sector-1 {
-    border-bottom: 1px rebeccapurple solid;
-    border-right: 1px rebeccapurple solid;
+    border-bottom: 1px rgb(0, 164, 185) solid;
+    border-right: 1px rgb(0, 164, 185) solid;
 }
 
 #sector-2 {
-    border-bottom: 1px rebeccapurple solid;
+    border-bottom: 1px rgb(0, 164, 185) solid;
 }
 
 #sector-3 {
-    border-right: 1px rebeccapurple solid;
+    border-right: 1px rgb(0, 164, 185) solid;
+}
+
+#answer {
+    display: flex;
+    justify-content: center;
 }
 
 #buttons {
@@ -75,6 +86,11 @@ button:active {
     grid-template-columns: 1fr 1fr;
     row-gap: 25px;
     column-gap: 25px;
+}
+
+#buttons button {
+    height: 50px;
+    margin: 0 30px
 }
 
 #hour-buttons {
@@ -86,7 +102,7 @@ button:active {
 }
 
 #hour-buttons button {
-    background-color: #04AA6D;
+    background-color: #04aa9c;
     color: white;
     padding: 10px;
     text-align: center;
@@ -101,7 +117,7 @@ button:active {
     width: 5%;
     height: 5%;
     border-radius: 100%;
-    background-color: blue;
+    background-color: rgb(0, 164, 185);
     position: absolute;
     left: 47.5%;
     top: 47.5%;
@@ -120,7 +136,7 @@ button:active {
 .round-hour button {
     height: 30px;
     width: 30px;
-    border: 2px solid blue;
+    border: 2px solid rgb(0, 247, 255);
     border-radius: 100%;
     margin-top: -12.5px;
     font-size: 1.5em;

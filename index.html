@@ -15,6 +15,32 @@
 <body>
     <div id="clock-container">
         <div id="clock">
+            <div class="round-hour hour-1">
+                <button id="number-1">1</button>
+                <button id="number-7">7</button>
+            </div>
+            <div class="round-hour hour-2">
+                <button id="number-2">2</button>
+                <button id="number-8">8</button>
+            </div>
+            <div class="round-hour hour-3">
+                <button id="number-3">3</button>
+                <button id="number-9">9</button>
+            </div>
+            <div class="round-hour hour-4">
+                <button id="number-4">4</button>
+                <button id="number-10">10</button>
+            </div>
+            <div class="round-hour hour-5">
+                <button id="number-5">5</button>
+                <button id="number-11">11</button>
+            </div>
+            <div class="round-hour hour-6">
+                <button id="number-6">6</button>
+                <button id="number-12">12</button>
+            </div>
+            <div class="pointer hour-pointer"><span class="hour-pointer-txt">TUNNIOSUTI</span></div>
+            <div class="pointer minute-pointer"><span class="minute-pointer-txt">MINUTIOSUTI</span></div>
             <div id="sector-1"></div>
             <div id="sector-2"></div>
             <div id="sector-3"></div>
@@ -22,14 +48,15 @@
         </div>
         <div id="congrats-container">
             <img src="./assets/smiley.png" alt="Congrats!">
-            <p>Good job, you passed this level!</p>
+            <p>Hea töö, sa läbisid taseme!</p>
         </div>
     </div>
+    <p id="answer"></p>
     <div id="buttons">
-        <button id="quarter-button">Quarter</button>
-        <button id="half-button">Half</button>
-        <button id="three-quarters-button">Three Quarters</button>
-        <button id="full-button">Full</button>
+        <button id="quarter-button">Veerand</button>
+        <button id="half-button">Pool</button>
+        <button id="three-quarters-button">Kolmveerand</button>
+        <button id="full-button">Täis</button>
     </div>
 
     <script src="scripts/sectors.js"></script>
