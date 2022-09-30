@@ -1,3 +1,5 @@
+![learntime](https://user-images.githubusercontent.com/71066639/193206145-8babf346-cbb8-49d6-af9e-048864d561aa.png)
+
 # LearnTime
 ## Time learning app made for kids
 -------------------------------------------
