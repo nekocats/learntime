@@ -110,7 +110,9 @@ The technical skill that I learned was design and most importantly, not making e
 
 
 ## Rihard
-text
+I learned how to use more features of JavaScript, such as Drag'n'Drop.
+I also explained some of the stuff I did to the new students, improving my communication skills.
+My understanding of git improved quite considerably, but could still be improved by a bit.
 
 ## Jan
 Communication with teammate.
@@ -118,7 +120,7 @@ Learned a little html, css (I made circles for hours/minutes and added pointers)
 It was my first project where I attended so I can basically take everything from here :slightly_smiling_face:
 
 ## Oleksandra
-text
+During this project I improved my teamwork and HTML skills.
 
 ## Aliin
 The main soft skill I learned was of course teamwork and how to communicate within my team and it is no shame in asking fr help and guidnce from the more knowledgeable ones. A hard skill I learned was how to create a readme file (:D) and I got more familiar with GitHub aswell. I didn`t learn any specific coding per se, but I saw how the overall process is done and how different languages are put together and how our groups masterminds were working in their own element. In the next project I am already familiar with the overall process and how important it is to first put a plan together and do a wireframe first.
