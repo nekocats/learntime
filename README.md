@@ -20,11 +20,11 @@ Nowadays many kids do not know how to tell time correctly when they start first 
 Slack
 
 # Working tools
-Whiteboard, laptops, brains and some basic knowledge :), Google
+Whiteboard, laptops, Google :)
 
 # Assignments
 ## Day 1
-Getting to knw each other
+Getting to know each other
 
 Discussing ideas
 
@@ -47,15 +47,25 @@ Starting with the medium level code
 
 Front-end work with the beginners level
 
+Product testing (beginner level, target audiences´ age 7)
+
+More front-end work
 
 ## Day 3
 Reviewing last nights work
 
+Finishing up the beginners level
 
+Testing
 
+Doing what we can with the medium level (coding-wise, time is of essence :))
+
+Preparing for the presentation
+
+Presenting out project
 
 ## ***
-### Suunavad küsimused
+### Suunavad küsimused - hiljem kustutada!?
 Kuidas rakendada selles projektis õpitut järgmistes arendusprojektides? 
 
 (How to use/apply the skils I learned from this project in the next ones)

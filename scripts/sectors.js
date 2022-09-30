@@ -16,7 +16,7 @@ sectorDraw();
 function sectorDraw() {
     switch (sector) {
         case 'quarter':
-            sector2.style.backgroundColor = "rgb(208, 255, 247)";
+            sector2.style.backgroundColor = "rgb(0, 164, 185)";
             sector4.style.backgroundColor = "transparent";
             sector3.style.backgroundColor = "transparent";
             sector1.style.backgroundColor = "transparent";
@@ -24,26 +24,26 @@ function sectorDraw() {
             minutePointerText.style.rotate = "180deg";
             break;
         case 'half':
-            sector2.style.backgroundColor = "rgb(208, 255, 247)";
-            sector4.style.backgroundColor = "rgb(208, 255, 247)";
+            sector2.style.backgroundColor = "rgb(0, 164, 185)";
+            sector4.style.backgroundColor = "rgb(0, 164, 185)";
             sector3.style.backgroundColor = "transparent";
             sector1.style.backgroundColor = "transparent";
             minutePointer.style.transform = "rotate(270deg)";
             minutePointerText.style.rotate = "0deg";
             break;
         case 'three-quarters':
-            sector2.style.backgroundColor = "rgb(208, 255, 247)";
-            sector3.style.backgroundColor = "rgb(208, 255, 247)";
-            sector4.style.backgroundColor = "rgb(208, 255, 247)";
+            sector2.style.backgroundColor = "rgb(0, 164, 185)";
+            sector3.style.backgroundColor = "rgb(0, 164, 185)";
+            sector4.style.backgroundColor = "rgb(0, 164, 185)";
             sector1.style.backgroundColor = "transparent";
             minutePointer.style.transform = "rotate(0deg)";
             minutePointerText.style.rotate = "0deg";
             break;
         case 'full':
-            sector2.style.backgroundColor = "rgb(208, 255, 247)";
-            sector4.style.backgroundColor = "rgb(208, 255, 247)";
-            sector3.style.backgroundColor = "rgb(208, 255, 247)";
-            sector1.style.backgroundColor = "rgb(208, 255, 247)";
+            sector2.style.backgroundColor = "rgb(0, 164, 185)";
+            sector4.style.backgroundColor = "rgb(0, 164, 185)";
+            sector3.style.backgroundColor = "rgb(0, 164, 185)";
+            sector1.style.backgroundColor = "rgb(0, 164, 185)";
             minutePointer.style.transform = "rotate(90deg)";
             minutePointerText.style.rotate = "180deg";
             break;
