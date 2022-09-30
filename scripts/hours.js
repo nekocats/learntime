@@ -51,12 +51,29 @@ function dragover_handler(ev) {
 	ev.preventDefault();
 }
 
+let answerDiv = document.getElementById("answer");
+
 function drop_handler(ev) {
 	console.log("Drop");
 	ev.preventDefault();
 	var id = ev.dataTransfer.getData("text");
-	ev.target.appendChild(document.getElementById(id));
-  }
+	childElement = document.getElementById(id);
+	splitChildId = childElement.id.split('-');
+	splitTargetId = ev.target.id.split('-');
+	if ( splitTargetId[1] == splitChildId[2] ) {
+		childElement.id = ev.target.id;
+		ev.target.replaceWith(childElement);
+		answerDiv.innerHTML = "Tubli töö!";
+		setTimeout(function() {
+			answerDiv.innerHTML = "";
+		}, 2000);
+	} else {
+		answerDiv.innerHTML = "Vale vastus.";
+		setTimeout(function() {
+			answerDiv.innerHTML = "";
+		}, 2000);
+	}
+}
 
 const draggableElement = document.querySelector('button[draggable="true"]');
 
