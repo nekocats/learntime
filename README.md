@@ -1,5 +1,16 @@
+![learntime](https://user-images.githubusercontent.com/71066639/193206145-8babf346-cbb8-49d6-af9e-048864d561aa.png)
+
 # LearnTime
 ## Time learning app made for kids
+_________________________________________________________________
+## Screenshots:
+-----------------------------------------------------------------
+Main view            |  Game being polite :D
+:-------------------------:|:-------------------------:
+![mainvaade](https://user-images.githubusercontent.com/71066639/193206892-a47526ba-a77f-4630-b1a9-a96f8114d1ff.png) |  ![Screenshot from 2022-09-30 09-39-46](https://user-images.githubusercontent.com/71066639/193206908-c5421df3-f0f7-4ef0-b076-9a88dff1809c.png)
+
+
+
 -------------------------------------------
 ## Prototype on whiteboard
 ![clock](https://user-images.githubusercontent.com/71066639/192779112-69f25777-4427-41c3-ba54-42f760060c59.png)
@@ -79,19 +90,29 @@ Kuidas rakendada selles projektis õpitut järgmistes arendusprojektides?
 (A hard skill/technical skill that I learned and developed)
 
 ## Ragnar
-text
+* How to use/apply the skills I learned from this project in the next ones?
+- Planning and analyze task before anything
+* Soft skill:
+Communication with team.
+* Hard skill:
+Improve github use, little bit of javascript...
 
 ## Helen
 text
 
 ## Marcus
-text
+In this project, I felt that teamwork and communication was stronger than it has been in previous projects.
+That would also be the soft skill that I learned and further developed.
+The technical skill that I learned was design and most importantly, not making everything pink.
+
 
 ## Rihard
 text
 
 ## Jan
-text
+Communication with teammate.
+Learned a little html, css (I made circles for hours/minutes and added pointers) and try to understand little bit git js.
+It was my first project where I attended so I can basically take everything from here :slightly_smiling_face:
 
 ## Oleksandra
 text
