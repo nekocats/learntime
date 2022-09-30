@@ -2,11 +2,15 @@
 
 # LearnTime
 ## Time learning app made for kids
+_________________________________________________________________
+## Screenshots:
+-----------------------------------------------------------------
+Main view            |  Game being polite :D
+:-------------------------:|:-------------------------:
+![mainvaade](https://user-images.githubusercontent.com/71066639/193206892-a47526ba-a77f-4630-b1a9-a96f8114d1ff.png) |  ![Screenshot from 2022-09-30 09-39-46](https://user-images.githubusercontent.com/71066639/193206908-c5421df3-f0f7-4ef0-b076-9a88dff1809c.png)
 
 
 
-![mainvaade](https://user-images.githubusercontent.com/71066639/193206892-a47526ba-a77f-4630-b1a9-a96f8114d1ff.png)
-## Screenshots:![Screenshot from 2022-09-30 09-39-46](https://user-images.githubusercontent.com/71066639/193206908-c5421df3-f0f7-4ef0-b076-9a88dff1809c.png)
 -------------------------------------------
 ## Prototype on whiteboard
 ![clock](https://user-images.githubusercontent.com/71066639/192779112-69f25777-4427-41c3-ba54-42f760060c59.png)
