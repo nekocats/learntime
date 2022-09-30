@@ -80,6 +80,8 @@ button:active {
 #answer {
     display: flex;
     justify-content: center;
+    height: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 #buttons {
