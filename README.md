@@ -2,6 +2,9 @@
 
 # LearnTime
 ## Time learning app made for kids
+
+## Play now:
+https://learntime.netlify.app
 _________________________________________________________________
 ## Screenshots:
 -----------------------------------------------------------------
