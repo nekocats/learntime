@@ -101,7 +101,7 @@ Communication with team.
 Improve github use, little bit of javascript...
 
 ## Helen
-text
+In this project I developed teamwork skills as soft skill and improved my fireframe drawing capabilities as technical skill. Also I enjoyed to guide and teach new students in school. I was able to be part of javascript code as a viever and question asker and gave advice with design decisions. 
 
 ## Marcus
 In this project, I felt that teamwork and communication was stronger than it has been in previous projects.
